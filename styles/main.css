@@ -9,7 +9,7 @@ body {
     background-color: #2d3158;
 }
 
-.active-link {
+.active-link { 
     font-style: italic;
     font-weight: bold;
     color: #EFE408;
