@@ -3,11 +3,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #252945;
+    color: #fff;
+    background-color: #2d3158;
 }
 
 header {
-    background: #2d3158;
+    background: #252945;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -37,8 +38,8 @@ main {
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    background: #252945;
+    color: #f0f0f0;
     text-align: center;
     padding: 10px 0;
     position: fixed;
