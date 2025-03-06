@@ -30,5 +30,24 @@
     <footer>
         <p>&copy; 2025 ƬΉΣGЦΛЯDIΛП. Todos los derechos reservados.</p>
     </footer>
+
+    <script>
+        function highlightCurrentPage() {
+            var currentPage = window.location.pathname.split('/').pop();
+            var linkIds = {
+                'index.html': 'link-tips',
+                'faq.html': 'link-faq'
+            };
+            var currentLinkId = linkIds[currentPage];
+            if (currentLinkId) {
+                var currentLink = document.getElementById(currentLinkId);
+                if (currentLink) {
+                    currentLink.classList.add('active-link');
+                }
+            }
+        }
+        window.onload = highlightCurrentPage;
+    </script>
+    
 </body>
 </html>
