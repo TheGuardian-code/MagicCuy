@@ -41,8 +41,28 @@ footer {
     background: #252945;
     color: #f0f0f0;
     text-align: center;
-    padding: 10px 0;
+    padding: 4px 0;
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+#vidas {
+    color: #FC8585; /* Naranja */
+}
+
+#megas {
+    color: #6AB9FF; /* Verde */
+}
+
+#minutos {
+    color: #92FFC4; /* Azul */
+}
+
+#sinmegas {
+    color: #FFF1A1; /* Azul */
+}
+
+#dinamica {
+    color: #F5B3FF; /* Azul */
 }
