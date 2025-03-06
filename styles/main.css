@@ -1,4 +1,6 @@
 body {
+    user-select: none;
+    -webkit-user-select: none;
     font-family: Arial, sans-serif;
     line-height: 1.2;
     margin: 0;
@@ -7,7 +9,12 @@ body {
     background-color: #2d3158;
 }
 
-header {
+.active-link {
+    background-color: #4CAF50;
+    color: white;
+}
+
+header {  
     background: #252945;
     color: #fff;
     padding: 10px 0;
