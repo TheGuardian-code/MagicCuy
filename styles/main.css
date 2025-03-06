@@ -39,9 +39,9 @@ main {
 
 footer {
     background: #252945;
-    color: #f0f0f0;
+    color: #dadada;
     text-align: center;
-    padding: 4px 0;
+    padding: 0;
     position: fixed;
     width: 100%;
     bottom: 0;
